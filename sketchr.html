@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sketchr.css">
+    <title>Sketchr</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<h1>Sketchr</h1>
+
+    <div id="container">
+        <div id="mainGrid">
+        <!-- GRID DISPLAYS HERE -->
+        </div>
+
+        <div class="controls">
+            
+            <div class = 'buttons' id = 'buttons'>
+                <div id="pallet">
+                    <div id = 'red' class = 'btn'></div>
+                    <div id = 'orange' class = 'btn'></div>
+                    <div id = 'yellow' class = 'btn'></div>
+                    <div id = 'green' class = 'btn'></div>
+                    <div id = 'blue' class = 'btn'></div>
+                    <div id = 'indigo' class = 'btn'></div>
+                    <div id = 'violet' class = 'btn'></div>    
+                    <div id = 'black' class = 'btn'></div>    
+                    <div id = 'white' class = 'btn'></div>    
+                    <div id = 'multi' class = 'btn'>
+                        <img src="multicolorTile.png" alt="">
+                    </div>
+
+
+                </div>
+                <button id = 'eraserButton' class="but">Eraser</button><br>
+                <button id = 'darkenButton' class="but">Darken</button><br>            
+                <button id = 'clearButton' class="but">Clear</button><br>
+
+                <div class="slidecontainer">
+                    <p>Set Resolution</p>
+                    <input type="range" min="3" max="100" value="16" class="slider" id="range">
+                    <p>Value: <span id="demo"></span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <br><br>
+        <p class = 'footer'>
+        This project on <a href="https://github.com/andybramhill/sketch">Git-Hub</a> 
+        </p>
+        <p class = 'footer'>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          Andy Bramhill
+        </p>        
+    </div>
+    <script type="text/javascript" src="sketchr.js"></script>
+</body>
+</html>
